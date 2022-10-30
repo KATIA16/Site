@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table thead tr {
+            background-color: lightseagreen;
+        }
+        table {
+            border: solid 1px black;
+        }
+        table tr:nth-child(even){
+            background-color:burlywood;
+        }
+        table tr:hover{
+            background-color:rgb(134, 194, 24);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="inicio">Inicio</a></li>
+                <li><a href="sobre_a_clinica.html">Sobre a Clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                
+                <!-- Aqui vai o seu header -->
+                <img src="imagens/img/acupuntura.jpg" width="100%"/>
+            </div>
+    
+            <div class="content">
+                
+                <!-- Aqui vai o seu conteúdo -->
+                <h1>Veja nossos serviços</h1>
+                <p>Temos <mark>acupuntuta, óleos essenciais, reiki, meditação, massagem, aromaterapia, yoga.</mark></p>
+                <p><u>Horário de Atendimento</u></p>
+                <table summary="Essa tabela se refere ao horário de atendimento dos serviços da clínica." width="450" align="center" cellspacing="0" cellpadding="5">
+                    <thead>
+                        <tr>
+                            <th><strong>Serviços</strong></th>
+                            <th><strong>Segunda a Sexta</strong></th>
+                            <th><strong>Sábados</strong></th>
+                            <th><strong>Feriados</strong></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Acupuntura</td>
+                        <td>08h - 17h</td>
+                        <td>08h - 12h</td>
+                        <td>09h - 12h</td>
+                    </tr>
+                    <tr>
+                        <td>Aromaterapia</td>
+                        <td>08h - 17h</td>
+                        <td>08h - 12h</td>
+                        <td>09h - 12h</td>
+                    </tr>
+                    <tr>
+                        <td>Massagem</td>
+                        <td>08h - 17h</td>
+                        <td>08h - 12h</td>
+                        <td>09h - 12h</td>
+                    </tr>
+                    <tr>
+                        <td>Óleos Essenciais</td>
+                        <td>08h - 17h</td>
+                        <td>08h - 12h</td>
+                        <td>09h - 12h</td>
+                    </tr>
+                    <tr>
+                        <td>Reiki</td>
+                        <td>08h - 17h</td>
+                        <td>08h - 12h</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Yoga</td>
+                        <td>08h - 17h</td>
+                        <td>08h - 12h</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="footer">
+                <p>Endereço: Rua das Oequídeas,300 <br>Contato: (99)-9999-9999<br>
+                    E-mail: clínicadasaude.com.br</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
